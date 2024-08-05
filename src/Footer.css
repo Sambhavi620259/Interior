@@ -1,0 +1,24 @@
+/* footer.css */
+
+.Footer {
+    background-color: #333; /* Dark background for contrast */
+    color: #fff; /* White text color */
+    text-align: center; /* Center text */
+    padding: 10px 0; /* Padding for vertical space */
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0;
+    width: 100%; /* Full width */
+    font-size: 0.9em; /* Slightly smaller text */
+    border-top: 1px solid #444; /* Subtle top border */
+  }
+  
+  .Footer p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  @media (max-width: 768px) {
+    .Footer {
+      font-size: 0.8em; /* Smaller text on smaller screens */
+    }
+  }
+  

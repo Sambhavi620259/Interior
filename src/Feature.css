@@ -1,0 +1,74 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* General styles for the section */
+.Features {
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/* Slider container */
+.Feature-slider {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Feature card styling */
+.Feature-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px; /* Maintain consistency for larger screens */
+  margin: 0 auto; /* Center align cards */
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image styling within the card */
+.Feature-card img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Limit height to ensure consistent layout */
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+  transition: transform 0.3s ease;
+}
+
+.Feature-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Title styling */
+.Feature-card h4 {
+  margin: 15px 0 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+
+.Feature-card p {
+  padding: 0 15px 20px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .Feature-card {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .Feature-card img {
+    max-height: 150px; 
+  }
+}
