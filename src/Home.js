@@ -12,7 +12,9 @@ const Home = () => {
       </section>
 
       <Feature />
+      <div style={{ marginTop: '70px' }}>
       <Footer /> 
+      </div>
     </div>
   );
 };
