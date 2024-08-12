@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/weather.js"
+status = 200
