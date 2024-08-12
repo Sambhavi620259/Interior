@@ -1,22 +1,75 @@
 .icon {
-    display: inline-block;
-    line-height: 1;
-    text-align: center;
-  }
-  
-  .icon-star {
-    /* Add custom styles for star icon if needed */
-  }
-  
-  .icon-heart {
-    /* Add custom styles for heart icon if needed */
-  }
-  
-  .icon-home {
-    /* Add custom styles for home icon if needed */
-  }
-  
-  .icon-contact{
-    /* Add custom styles for home icon if needed */
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
 }
-  
+
+/* General style for all icons */
+.icon {
+  font-size: 24px; /* Default size */
+  color: black; /* Default color */
+}
+
+/* Custom styles for star icon */
+.icon-star {
+  /* Add custom styles for star icon if needed */
+}
+
+/* Custom styles for heart icon */
+.icon-heart {
+  /* Add custom styles for heart icon if needed */
+}
+
+/* Custom styles for home icon */
+.icon-home {
+  /* Add custom styles for home icon if needed */
+}
+
+/* Custom styles for contact icon */
+.icon-contact {
+  /* Add custom styles for contact icon if needed */
+}
+
+/* Custom styles for weather icons */
+
+/* Cloudy */
+.icon-cloud {
+  font-size: 24px; /* Adjust size if needed */
+  color: gray; /* Cloudy color */
+}
+
+/* Sunny */
+.icon-sun {
+  font-size: 24px; /* Adjust size if needed */
+  color: yellow; /* Sunny color */
+}
+
+/* Rainy */
+.icon-rain {
+  font-size: 24px; /* Adjust size if needed */
+  color: blue; /* Rainy color */
+}
+
+/* Snowy */
+.icon-snow {
+  font-size: 24px; /* Adjust size if needed */
+  color: lightblue; /* Snowy color */
+}
+
+/* Stormy */
+.icon-storm {
+  font-size: 24px; /* Adjust size if needed */
+  color: darkgray; /* Stormy color */
+}
+
+/* Windy */
+.icon-wind {
+  font-size: 24px; /* Adjust size if needed */
+  color: lightgray; /* Windy color */
+}
+
+/* Foggy */
+.icon-fog {
+  font-size: 24px; /* Adjust size if needed */
+  color: silver; /* Foggy color */
+}

@@ -5,7 +5,7 @@
     color: #fff; /* White text color */
     text-align: center; /* Center text */
     padding: 10px 0; /* Padding for vertical space */
-    position: fixed; /* Fixed position at the bottom */
+    /* position: fixed; Fixed position at the bottom */
     bottom: 0;
     width: 100%; /* Full width */
     font-size: 0.9em; /* Slightly smaller text */

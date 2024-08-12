@@ -1,0 +1,29 @@
+/* Sidebar.css */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Start off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #222;
+    transition: left 0.3s ease; /* Smooth transition */
+    z-index: 999;
+    padding: 20px;
+}
+
+.sidebar.open {
+    left: 0; /* Move sidebar into view when open */
+}
+
+.sidebar nav a {
+    display: block;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar nav a:hover {
+    background-color: #444;
+}

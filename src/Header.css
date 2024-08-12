@@ -1,0 +1,42 @@
+/* Header.css */
+
+.header-container {
+    position: fixed; /* Ensures the header stays at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000; /* Ensures the header is on top of other content */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1001; /* Ensures the header content is above the sidebar */
+}
+
+.menu-button-container {
+    display: flex;
+    align-items: center;
+    z-index: 1002; /* Ensures the menu button is on top of the sidebar */
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.app-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1001; /* Ensures the title is above the sidebar */
+}
+
+/* Additional spacing to ensure no overlap */
+.sidebar.open {
+    margin-top: 60px; /* Adjust based on your header height */
+}
